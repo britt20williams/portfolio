@@ -1,0 +1,421 @@
+/* Colors */
+.eggshell {
+    background-color: #FDFDF5;
+    
+}
+
+.eggshellText{
+    color: #FDFDF5
+}
+
+.brick {
+    background-color: #8A3E30;
+}
+
+.brickText {
+    color: #8A3E30;
+}
+
+.salmon {
+    background-color: #db9281;
+}
+
+.salmonText {
+    color: #db9281;
+}
+
+
+.greyblue {
+    background-color: #e4f4f3;
+}
+
+.greyblueText{
+    color: #e4f4f3;
+}
+
+.lightteal {
+    background-color: #92bebf;
+}
+
+.lighttealText{
+    color: #92bebf;
+}
+
+.teal {
+    background-color: #055d67;
+}
+
+.tealText{
+    color: #055d67;
+}
+/* Typography */
+h1 {
+    font-family: Karla, sans-serif;
+    font-size: 84pt;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: Karla, sans-serif;
+    font-size: 64pt;
+    font-weight: 550;
+}
+
+h2.sub {
+    font-family: Inconsolata, Courier, monospace;
+    font-size: 48pt;
+    font-weight: 550;
+    font-stretch: semi-expanded;
+}
+
+h3 {
+    font-family: Karla, sans-serif;
+    font-size: 48pt;
+    font-weight: bold;
+}
+
+h3.sub {
+    font-family: Inconsolata, Courier, monospace;
+    font-size: 36pt;
+    font-weight: 550;
+    font-stretch: semi-expanded;
+}
+
+h4 {
+    font-family: Karla, sans-serif;
+    font-size: 40pt;
+    font-weight: 550;
+}
+
+h4.sub{
+    font-family: Inconsolata, Courier, monospace;
+    font-size: 28pt;
+    font-weight: 550;
+    font-stretch: semi-expanded;
+}
+h5 {
+    font-family: Karla, sans-serif;
+    font-size: 36pt;
+}
+
+h6 {
+    font-family: Karla, sans-serif;
+    font-size: 28pt;
+    font-weight: 550;
+}
+
+
+.buttonLabel {
+    font-family: Karla, sans-serif;
+    font-size:26pt;
+    font-weight: bold;
+}
+
+.body {
+    font-family: Inconsolata;
+    font-stretch: semi-expanded;
+    font-size: 20pt;
+}
+/* Whole Document Styles */
+body{
+    margin: 8px 0px 0px 0px;
+
+}
+/* Nav Styles */
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: 0px 8px;
+}
+
+#menu{
+    display: flex;
+}
+
+.menuItem{
+    margin: 0px 20px;
+}
+a.brickText{
+    text-decoration: none;
+    color:#8A3E30
+}
+
+.logo{
+    object-fit: scale-down;
+}
+
+#socials{
+    display:flex;
+    width: 100px;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 5px 0px;
+}
+
+.column{
+    display:flex;
+    flex-direction: column;
+}
+#contact{
+    padding: 10px 0px;
+}
+.contactMe{
+    color:#FDFDF5;
+    writing-mode: vertical-rl;
+    margin: 0px;
+    font-size: 24px;
+}
+
+/* Intro */
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#intro > h2, #intro > h4 {
+    margin: 0px;
+}
+
+#summary{
+    margin: 0px 12%;
+}
+
+#summary > h3{
+    margin: 0px;
+}
+
+#buttons{
+    display: flex;
+    margin: 16px;
+    justify-content: space-evenly;
+}
+
+#buttons > a{
+    border-radius: 8px;
+    padding: 16px;
+    margin: 15px;
+}
+/* Content--Bio */
+#bio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 138px;
+}
+
+#photo{
+    object-fit: scale-down;
+    margin-left: 138px;
+    border-radius: 8px;
+}
+
+#aboutme{
+    display: flex;
+    align-items: flex-start;
+}
+
+#aboutme > div > h3:first-child{
+    margin-top: 0px;
+}
+
+/* Skills Section */
+#skills, #ux_projects{
+    display: flex;
+}
+
+#ux_projects > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+/* #ux_projects > div > img{
+    object-fit: scale-down;
+} */
+
+#tech, #running-start{
+    width: 50%;
+    border-radius: 8px;
+}
+
+#softskills, #nsa{
+    width: 50%;
+    border-radius: 8px;
+}
+
+#skills > div > h3, #jobs > div > h3, #running-start > h3, #nsa > h3, #dev_projects > div > h3{
+    margin-top: 32px;
+    margin-left: 16px;
+    margin-bottom: 0px;
+}
+
+#tech > div{
+    margin: 0px 64px;
+}
+
+#softskills > ul{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 64px;
+    margin-right: 64px;
+}
+
+#running-start > div, #nsa > div{
+    margin:auto;
+}
+
+#softskills > ul > li{
+    padding-top: 26px;
+}
+
+.label{
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+/* Jobs Section */
+#jobs, #dev_projects{
+    display:grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+
+#jobs > div > p{
+    margin: 10px 64px;
+}
+
+#dev_projects > div > p{
+    margin: 64px 64px;
+}
+
+#jobs > div, #dev_projects > div{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 8px;
+}
+
+#jobs > div > h4, #dev_projects > div > h4, #ux_projects > div > h4{
+    margin: 5px 16px;
+    padding-bottom: 5px;
+}
+
+/* Footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+footer > h6{
+    margin: 10px;
+}
+
+/* Case Study Styles */
+.cs-intro-photo{
+    object-fit: scale-down;
+    border-radius: 8px;
+    margin-left: 20px;
+    width: 50%;
+
+}
+.cs-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 64px;
+}
+.cs-section > h2{
+    margin: 30px 0px;
+}
+.description{
+    display: flex;
+    align-items: flex-start;
+}
+.description > div > h3:first-child{
+    margin-top: 0px;
+}
+.divider{
+    margin: 10px 0px;
+    padding: 5px 0px;
+    text-align: center;
+}
+.summary{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.summary > div{
+    display: flex;
+    flex-direction: column;
+}
+.summary > div > h6{
+    margin: 0px 5px;
+    font-weight: bold;
+    font-size: 22pt;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.summary > div > ul{
+    padding-right: 5px;
+}
+/* Responsive Web Design Media Queries */
+@media screen and (max-width: 600px){
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #aboutme{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bio > h2 {
+        margin: 20px 0px;
+    }
+    #bio{
+        padding: 0px 64px;
+    }
+    #photo{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    #skills, #ux_projects{
+        flex-direction: column;
+    }
+    #tech, #softskills, #running-start, #nsa{
+        width:100%
+    }
+    #jobs, #dev_projects{
+        grid-auto-flow: unset;
+    }
+    #intro > h2{
+        text-align: center;
+    }
+    #intro{
+        margin-top: 20px;
+    }
+    .description{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .cs-intro-photo{
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+    .cs-section > h2{
+        text-align: center;
+    }
+    .summary{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+}
