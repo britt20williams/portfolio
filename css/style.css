@@ -341,9 +341,10 @@ footer > h6{
     margin-top: 0px;
 }
 .divider{
-    margin: 10px 0px;
+    margin: 0px;
     padding: 5px 0px;
     text-align: center;
+    border-radius: 8px;
 }
 .summary{
     display: grid;
@@ -365,6 +366,26 @@ footer > h6{
 .summary > div > ul{
     padding-right: 5px;
 }
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 0px;
+}
+
+.cardimgdiv {
+    padding: 0px 64px;
+    text-align: center;
+}
+
+.cardimgdiv > img{
+    border-radius: 8px;
+}
+
+.cardtextdiv{
+    padding: 0px 64px;
+}
+
 /* Responsive Web Design Media Queries */
 @media screen and (max-width: 600px){
     #menu {

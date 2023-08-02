@@ -1,0 +1,11 @@
+Update color contrast when using the salmon on the light blue
+    consider other colors that have better accessibility ratios
+Change nav portfolio to work or home and move before about
+Play with size of nav bar text
+take screenshot of frame in live view and place over wireframe to see why size of text seems off
+move word wrap of label so it doesn't wrap under the label
+use video instead of image and make bigger--move title of case study over the process part and blow up the video div
+Allow images to be selected and pop out into bigger view
+shorten summary paragraph on case study so it isn't really long--hard to read/follow
+ways to help images--try exporting with transparent background; consider breaking the containers so it's not a bunch of squares/rectangles
+add more padding to the sections so it can breathe
