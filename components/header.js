@@ -7,8 +7,8 @@ class Header extends HTMLElement {
         this.innerHTML = `<nav>
         <a href="index.html"><img class="logo" src="images/logo.png" /></a>
         <div id="menu">
+          <h3 class="menuItem"><a class="brickText" href="index.html">home</a></h3>
           <h3 class="menuItem"><a class="brickText" href="about.html">about</a></h3>
-          <h3 class="menuItem"><a class="brickText" href="#">portfolio</a></h3>
         </div>
         <div id="socials" class="salmon">
           <div class="column">
