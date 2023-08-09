@@ -9,13 +9,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
     <script src="components/header.js" type="text/javascript" defer></script>
     <script src="components/footer.js" type="text/javascript" defer></script>
-
-
+    <script src="components/image_popup.js" type="text/javascript" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
 </head>
 
 <body class="eggshell">
     <header-component></header-component>
 
+    <div class="modal">
+        <div class="modal-content">
+            <img id="modal-img"/>
+        </div>
+    </div>
 
     <section class="cs-section">
         <h2 class="salmonText">running-start.org</h2>
@@ -88,7 +93,7 @@
     <section>
         <div class="card greyblue">
             <div class="cardimgdiv">
-            <img src="images/runningstart/userinsights.png"/>
+            <img id="insights" src="images/runningstart/userinsights.png"/>
             </div>
             <div class="cardtextdiv">
                 <h3 class="brickText">User Interviews & Insights</h3>
@@ -101,12 +106,12 @@
                 <p class="body">Meaningful writeup about why this step is important</p>
             </div>
             <div class="cardimgdiv">
-                <img src="images/runningstart/competitor.png"/>
+                <img id="competitor" src="images/runningstart/competitor.png"/>
                 </div>
         </div>
         <div class="card greyblue">
             <div class="cardimgdiv">
-            <img src="images/runningstart/heuristiceval.png"/>
+            <img id="heuristic" src="images/runningstart/heuristiceval.png"/>
             </div>
             <div class="cardtextdiv">
                 <h3 class="salmonText">Heuristic Evaluation</h3>
@@ -123,12 +128,12 @@
                 <p class="body">Meaningful writeup about why this step is important</p>
             </div>
             <div class="cardimgdiv">
-                <img src="images/runningstart/affinity.png"/>
+                <img id="affinity" src="images/runningstart/affinity.png"/>
                 </div>
         </div>
         <div class="card greyblue">
             <div class="cardimgdiv">
-            <img src="images/runningstart/user_scenario.png"/>
+            <img id="userscenario" src="images/runningstart/user_scenario.png"/>
             </div>
             <div class="cardtextdiv">
                 <h3 class="tealText">User Scenario</h3>
