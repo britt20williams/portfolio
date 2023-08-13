@@ -200,6 +200,19 @@ a.brickText{
     padding: 16px;
     margin: 15px;
 }
+
+#contactButton, #resume{
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px;
+}
+
+#contactButton:hover, #resume:hover{
+    border-color: #8A3E30;
+    border-style: solid;
+    border-width: 5px;
+}
+
 /* Content--Bio */
 #bio{
     display: flex;
@@ -333,23 +346,21 @@ footer > h6{
     align-items: center;
     padding: 0px 64px 32px 64px;
 }
-.cs-section > h2{
-    margin: 30px 0px;
-}
+
 .description{
     display: flex;
     align-items: flex-start;
+    margin-top: 40px;
 }
 
 .abstract{
     width: 50%;
 }
-/* .description > div > h3:first-child{
-    margin-top: 0px;
-}
+
 .description > div > h3 {
-    display: flex;
-} */
+    margin: 20px 0px;
+} 
+
 .descriptionGrid{
     display: grid;
     grid-template-columns: 25% 75%;
@@ -386,6 +397,16 @@ footer > h6{
 .summary > div > ul{
     padding-right: 5px;
 }
+.summary > div > ul > li{
+    margin-bottom: 15px;
+}
+.summary > div > ul > li > a{
+    text-decoration: none;
+}
+
+.summary > div > ul > li > a:hover{
+    text-decoration: underline;
+}
 
 .card{
     display: grid;
@@ -404,6 +425,10 @@ footer > h6{
 
 .cardtextdiv{
     padding: 0px 64px;
+}
+
+.cardtextdiv > h5{
+    margin: 0px;
 }
 
 /* Image Modal CSS Styles */
